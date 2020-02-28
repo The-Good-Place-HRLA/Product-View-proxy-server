@@ -3,7 +3,6 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const cors = require('cors');
 const path = require('path');
-const request = require('request');
 
 const app = express();
 const port = 3000;

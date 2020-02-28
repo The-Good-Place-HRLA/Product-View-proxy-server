@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "jest",
-    "start": "node server/index.js"
+    "start": "nodemon server/index.js"
   },
   "jest": {
     "testEnvironment": "node"
@@ -22,6 +22,7 @@
     "express": "^4.17.1",
     "jest": "^25.1.0",
     "morgan": "^1.9.1",
+    "nodemon": "^2.0.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   }
