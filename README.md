@@ -1,6 +1,6 @@
 # Project Name
 
-> Project description
+Proxy server using http proxy middleware to proxy requests to Product View Service, as well as Redis caching to store response data for faster lookup times.
 
 ## Related Projects
 
@@ -31,9 +31,6 @@ An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 ### Installing Dependencies
 
 From within the root directory:
-
-```sh
-npm install -g webpack
-npm install
-```
+npm install,
+npm start
 
